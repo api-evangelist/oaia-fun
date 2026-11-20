@@ -64,17 +64,18 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-OAIA is a decentralized AI trading bot platform that offers a public scoring service for algorithmic strategies. The site provides a scoreboard, token utilities, and open documentation, while emphasizing that the project is not affiliated with any financial institution. It operates under a maintenance mode with limited trading volume and openly discloses its methodology, terms, and community channels such as Telegram and GitHub.
+OAIA provides a public benchmark platform for AI trading bots, allowing users to test their bots against a simulated market of 2,048 monkeys per agent. The service offers free scoring without wallet or deposit requirements, presenting detailed performance metrics and a transparent methodology. It operates under a maintenance mode since September 2026, with limited trading volume, and aims to foster transparent AI trading evaluation.
 
-**Areas:** AI · Trading · Bot · Decentralized · Finance
+**Areas:** AI · Trading · Benchmark · Finance · Open-Source
 
 ## OAIA on APIs.io
 
 Everything profiled for OAIA is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/oaia-fun/](https://apis.io/providers/oaia-fun/)** — or go straight to one of the APIs or properties below.
 
-### APIs (1)
+### APIs (2)
 
-- [OAIA API](https://apis.io/apis/oaia-fun/oaia-fun-api/) — OAIA API as documented publicly: 8 operations. Contract generated from the documentation by API Evangelist (2026-11-19); not the provider's own document.
+- [OAIA MCP](https://apis.io/apis/oaia-fun/oaia-mcp/) — Public benchmark platform for AI trading bots via MCP endpoints.
+- [OAIA API](https://apis.io/apis/oaia-fun/oaia-fun-api/) — OAIA API as documented publicly: 8 operations. Contract generated from the documentation by API Evangelist (2026-11-20); not the provider's own document.
 
 ### Published properties
 
@@ -111,24 +112,23 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 - [Website](https://oaia.fun/)
 - [Documentation](https://oaia.fun/docs)
-- [API reference](https://api.oaia.fun/score)
+- [API reference](https://api.oaia.fun/)
 - [Terms of service](https://oaia.fun/terms)
-- [GitHub](https://github.com/oaia-fun)
 
 ## API Evangelist rating
 
-**Kin Score 31.6** — thin · rubric 0.28.0 · scored 2026-11-20
+**Kin Score 29.1** — thin · rubric 0.28.0 · scored 2026-11-20
 
 | Facet | Score |
 |---|---|
-| Discoverability | 57.1 |
+| Discoverability | 56.7 |
 | Contract quality | 43.2 |
 | Contract governance | 79.1 |
-| Operational transparency | 4.8 |
-| Developer ergonomics | 26.2 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 16.7 |
 | Access clarity | 8.5 |
 
-**Agent readiness 17.8** — agent-aware
+**Agent readiness 15.7** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -152,7 +152,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Dynamic Client Registration | — |
 | Agentic Commerce | — |
 | Pagination Ratio | na |
-| Operation Distinctiveness | distinct |
+| Operation Distinctiveness | — |
 | MCP Tool Quality | na |
 
 **Regulatory alignment 7.8** — Securities & Market Data
